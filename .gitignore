@@ -1,0 +1,22 @@
+# Binaries
+git-server-metrics
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build outputs
+bin/
+dist/
+coverage.out
+*.test
+
+# Local overrides
+.env
+config.local.yaml
+
+# IDE / local tooling
+.idea/
+.jj/
+.DS_Store

@@ -1,0 +1,13 @@
+listen_addr: ":9108"
+
+git_bin: git
+
+pool_size: 2
+command_timeout: 20s
+
+# Single interval used for all metric collection.
+scrape_interval: 30s
+
+repos:
+  - name: test-repo
+    path: /Users/ponch/Development/gerritmeets/gerrit-3.12.2-oauth/git/test-repo.git
